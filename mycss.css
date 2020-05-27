@@ -1,0 +1,203 @@
+.row1{
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.panel_mode {
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.bt_debug, .file_m, .sFont, .check, .CurrentInfo{
+	display: flex;
+    flex-direction: row;
+	width: 10%;
+	flex: auto;
+}
+.padL10{
+ padding-left: 10px;
+}
+.line2{
+	border-top-style: double;
+}
+.icoFont{
+	display: flex;
+}
+.selFont {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icoDebug{
+	margin-right: 10px;
+	margin-left: 10px;
+	/*border-right: 1px solid black;*/
+	width: 35px;
+}
+
+.icoDebug:hover{
+	cursor: pointer; 
+}
+.row1_1{
+	display: flex;
+    flex-direction: row;
+    /*flex: 1;*/
+    padding-right: 1px;
+    /*width: 10%;*/
+    width: 100px;
+}
+.row1_2{
+	display: flex;
+    flex-direction: row;
+    flex: 2;
+    width: 70%;
+}
+.row1_3{
+	display: flex;
+    flex-direction: row;
+	width: 250px;
+}
+.artEditor{
+	width: 100%;
+	max-width: 100%;
+	border-left: 2px solid #E30808;
+    border-right: 2px solid #E30808;
+        background: #ffffff3b;
+}
+
+.svgMashine{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  height: 55%;
+
+}
+.svgBigPic{
+  height: auto;
+}
+.row_nav{
+	display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    max-height: 100%;
+    /*box-sizing: -moz-border-box;*/
+    /*box-sizing: border-box;*/
+    overflow-y: auto;
+    left: 0;
+    /*right: none;*/
+    /*width: 160px;*/
+    text-align: right;
+    z-index: 1;
+        padding-left: 10px;
+
+}
+.ul_list{
+	list-style-type: none;
+	margin-left: 0; 
+    padding-left: 0; 
+}
+   a { 
+    text-decoration: none; 
+   }
+   a:hover { 
+    text-decoration: underline;                               
+   }
+   .CodeMirror{
+   	    height: 100%;
+   }
+
+   .edit_Area{
+   	width: 100%;
+     height: 40%;
+   }
+
+input {
+    opacity: 0;
+    position: relative;
+    left: -100px
+}
+.loadfile{
+	color: #A21313;
+}
+.loadfile:hover{
+    text-decoration:underline;	
+}
+.errorTxt{
+	color: red;
+}
+.inputfile{
+	width: 0px;
+}
+.LFileCompil{
+	display: flex;
+    /* flex-direction: row; */
+    width: 53px;
+}
+.selectFS{
+	font-size: 16px;
+	width: 95px;
+}
+.blockPreset {
+	border-top-style: double;
+  margin-bottom: 5%;
+}
+.preSet{
+	padding-top: 20px;
+}
+.lockDoor{
+  opacity: 1;
+  position: unset;
+}
+
+
+.tank{
+  width: 60px;
+  /*animation: spinR 5s linear 0s infinite;*/
+}
+.tank1{
+ /*width: 150px;*/
+
+}
+
+@keyframes spinR {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes spinL {
+  from {transform:rotate(360deg);}
+  to {transform:rotate(0deg);}
+}
+
+.convert{
+margin-left: 10px;
+}
+.saveFileName{
+  margin-left: 10px;
+  left: auto;
+  opacity: inherit;
+}
+
+.add-panel, .remove-panel {
+  cursor: pointer;
+}
+.remove-panel {
+  float: right;
+}
+.panel {
+  background: #f7f7f7;
+  padding: 3px 7px;
+  font-size: 0.85em;
+}
+.panel.top, .panel.after-top {
+  border-bottom: 1px solid #ddd;
+}
+.panel.bottom, .panel.before-bottom {
+  border-top: 1px solid #ddd;
+}
+
+.help {
+  border-top-style: double;
+  margin-bottom: 5%;
+}
