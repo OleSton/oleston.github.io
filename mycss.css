@@ -201,3 +201,10 @@ margin-left: 10px;
   border-top-style: double;
   margin-bottom: 5%;
 }
+
+.tlg_log{
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
