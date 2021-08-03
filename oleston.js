@@ -15,14 +15,14 @@ CodeMirror.defineSimpleMode("rust",{
   start: [
 
     {regex: /H[0-9]{1,2}/, token: "string"}, {regex: /H\?/, token: "string"},
-    {regex: /[ED][0-1]{1,1}/, token: "bracket"},
-    {regex: /[VW][0-1]{1,1}/, token: "def"},
+    {regex: /D[0-1]{1,1}/, token: "bracket"},
+    {regex: /E[0-9]{1,4}/, token: "bracket"},
+    {regex: /[VWJ][0-1]{1,1}/, token: "def"},
     {regex: /L[0-1]{1,1}/, token: "keyword"},
-    {regex: /B[0-1]{1,1}/, token: "meta"},
     {regex: /A[0-9]{1,1},[0-2]{1,1}/, token: "variable-2"},
     {regex: /O[150-999]{3,3},[0-9]{1,3},[0-9]{1,2},[0-9]{1,1}/, token: "positive"}, {regex: /O\?,[0-9]{1,3},[0-9]{1,2},[0-9]{1,1}/, token: "positive"},
     {regex: /M[0-9]{1,3},[0-9]{1,4},[0-9]{1,4},[0-9]{1,4},[0-9]{1,4}/, token: "string-2"},
-    {regex: /S[0-9]{1,4}/, token: "number"},
+    {regex: /[STB][0-9]{1,4}/, token: "number"},
     {regex: /P[0-9]{1,4}/, token: "atom"},
     {regex: /;;+|\s;/, token: "trailingspace"},
     {regex: /\s*\/\/.*/, token: "comment"},
